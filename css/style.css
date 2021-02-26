@@ -63,12 +63,12 @@ li {
   background: transparent;
   width: 500px;
   border-radius: 10px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   height: 50px;
-  box-shadow: -11px -4px 52px -11px rgba(13, 73, 97, 0.72);
-  -webkit-box-shadow: -11px -4px 52px -11px rgba(13, 73, 97, 0.72);
-  -moz-box-shadow: -11px -4px 52px -11px rgba(13, 73, 97, 0.72);
-  margin: 10px;
+  color: white;
+  -webkit-box-shadow: 0px 2px 21px 9px rgba(38, 83, 207, 0.87);
+  box-shadow: 0px 2px 21px 9px rgba(0, 0, 0, 0.87);
+  padding: 0 30px 0 68px;
 }
 input {
   outline: none;
@@ -89,24 +89,25 @@ input {
 }
 
 .btn-danger {
-  background: transparent;
+  background: transparent !important;
   width: 70px;
   height: 51px;
   font-size: 20px;
   color: aliceblue;
-  border: 1px solid white;
+  border: none;
+  outline: none;
   border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 21px 9px rgba(9, 106, 216, 0.87);
+  box-shadow: 0px 2px 21px 9px rgba(0, 0, 0, 0.87);
   transition: all 0.3s;
   cursor: pointer;
+  margin: 20px;
 }
 
 .btn-danger:hover {
   background-color: #2a5298;
-  box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
-  color: white;
-  border: 1px solid white;
-  transform: translateX(7px);
+  /* box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4); */
+  transform: translate(10px);
 }
 
 .bg-info {
@@ -281,10 +282,10 @@ input {
   color: #fff;
   text-transform: uppercase;
 
-  width: 100%;
-  height: 50px;
+  width: 70%;
+  height: 40px;
   border-radius: 25px;
-  background: #57b846;
+  background: teal;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -301,8 +302,13 @@ input {
 }
 
 .login100-form-btn:hover {
-  background: #333333;
+  background: white;
+  color: black;
 }
+
+/* madia query 
+##################################################################################
+*/
 
 @media (max-width: 992px) {
   .wrap-login100 {
