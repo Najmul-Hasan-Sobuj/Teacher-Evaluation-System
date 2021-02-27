@@ -26,6 +26,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   margin: 0px;
+  text-decoration: none;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -37,7 +38,6 @@ a:focus {
 }
 
 a:hover {
-  text-decoration: none;
   color: #57b846;
 }
 
@@ -53,6 +53,7 @@ li {
   margin-right: 10px;
   padding-right: 15px;
   border-right: 1px solid;
+  list-style-type: none;
 }
 
 .li_border_right {
@@ -313,7 +314,61 @@ input {
   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
-
+.rate_btn{
+  width: 175px;
+  height: 40px;
+  transition: all 0.5s;
+}
+.rate_btn:hover{
+  width: 200px;
+}
+.border-bottom{
+  width: 65px;
+}
+.tp_h2_left{
+  float: left;
+}
+.vap_a_right{
+  float: right;
+}
+.Tpro_name{
+  height: 50px;
+  width: 100%;
+  font-size: x-large;
+  float: left;
+  margin-bottom: 20px;
+}
+.rateR{
+  float: right;
+  height: 50px;
+  width: 50px;
+  background-color: royalblue;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+.right-brackdown{
+  border-right: 1px solid #999999;
+}
+.var_stack_up{
+  margin-bottom: 30px;
+}
+.rate_oqr{
+  text-align: center;
+  align-items: center;
+  display: grid;
+}
+.rate_oqr{
+  height: 50px;
+  width: 50px;
+  background-color: royalblue;
+  float: left;
+  margin-right: 10px;
+}
+.oqr_S{
+  font-size: 12px;
+  padding: 15px;
+}
 /* madia query 
 ##################################################################################
 */
